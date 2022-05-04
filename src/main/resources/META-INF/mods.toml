@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="${loader_range}"
+issueTrackerURL=""
+license="CC BY-NC-SA 4.0"
+
+[[mods]]
+modId="bo"
+namespace="bo"
+version="${version}"
+displayName="Better-overlap"
+authors="Natixe"
+description='''
+Mods ...
+    '''
+displayURL=""
+
+[[dependencies.bo]]
+modId="forge"
+mandatory=true
+versionRange="${forge_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bo]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_range}"
+ordering="NONE"
+side="BOTH"
