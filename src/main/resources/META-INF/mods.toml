@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="${loader_range}"
-issueTrackerURL=""
+issueTrackerURL="https://github.com/Natixe/Better-overlap/issues"
 license="CC BY-NC-SA 4.0"
 
 [[mods]]
@@ -12,7 +12,7 @@ authors="Natixe"
 description='''
 Mods ...
     '''
-displayURL=""
+displayURL="https://github.com/Natixe/Better-overlap"
 
 [[dependencies.bo]]
 modId="forge"

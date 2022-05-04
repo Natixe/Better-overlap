@@ -27,10 +27,10 @@ public class BO
 
     public BO()
     {
-      IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-      ModItems.register(bus);
-      ModBlocks.register(bus);
+      //IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+//
+      //ModItems.register(bus);
+      //ModBlocks.register(bus);
       // Register the setup method for modloading
       FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
       // Register the enqueueIMC method for modloading
